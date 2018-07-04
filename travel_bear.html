@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118124584-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118124584-1');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <!-- FontAwesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+    crossorigin="anonymous"></script>
+  <!-- Custom CSS -->
+  <link type="text/css" rel="stylesheet" href="css/style_bear.css?v=2">
+  <title>TravelBear</title>
+</head>
+
+<body id="home" class="scrollspy">
+
+  <div class="fixed-action-btn">
+    <a class="btn btn-large tooltipped cyan" data-position="left" data-tooltip="Back to site" href="home.html">
+      Back to site
+    </a>
+  </div>
+  <!-- NAV -->
+  <div class="navbar-fixed">
+    <nav class="amber">
+
+      <div class="nav-wrapper">
+        <div class="container blue-text">
+          <a href="#" class="brand-logo">TravelBear</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#popular">Popular Destinations</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#search">Search</a>
+    </li>
+    <li>
+      <a href="#popular">Popular Places</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <!-- SLIDER -->
+  <section class="slider section-slider">
+    <ul class="slides">
+      <li>
+        <img src="img/holiday1.jpg" alt="Holiday picture 1">
+        <div class="caption center-align">
+          <h2>Dream Holidays</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, doloremque velit magni dignissimos laboriosam
+            maiores!
+          </h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/holiday2.jpeg" alt="Holiday picture 2">
+        <div class="caption right-align">
+          <h2>What's Your Budget?</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quas dolor, quod nesciunt delectus voluptate!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/holiday3.jpeg" alt="Holiday picture 3">
+        <div class="caption left-align">
+          <h2>Quick, Easy and Cheap!</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quaerat sunt quia rem veniam consequatur.</h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+
+
+  <!-- Section Boxes -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large amber-text">room</i>
+            <h4>Choose Place</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, laudantium.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large amber-text">hotel</i>
+            <h4>Book Hotel</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, laudantium.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large amber-text">airplanemode_active</i>
+            <h4>Off You Go!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, laudantium.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Search -->
+  <section id="search" class="section section-search amber darken-1 white-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search Our Locations</h3>
+          <div class="input-field">
+            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Hawaii, Stockholm, London">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Carousel -->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">Popular Destinations</h4>
+        <div class="col s12 m12">
+          <div class="carousel carousel-slider center">
+            <a class="carousel-item" href="#one!">
+              <h5 class="amber-text">Venice</h5>
+              <img src="https://source.unsplash.com/1600x900/?venice" alt="unsplash photo">
+            </a>
+            <a class="carousel-item" href="#two!">
+              <h5 class="amber-text">Australia</h5>
+              <img src="https://source.unsplash.com/1600x900/?australia" alt="unsplash photo">
+            </a>
+            <a class="carousel-item" href="#three!">
+              <h5 class="amber-text">Africa</h5>
+              <img src="https://source.unsplash.com/1600x900/?africa" alt="unsplash photo">
+            </a>
+            <a class="carousel-item" href="#four!">
+              <h5 class="amber-text">Hawaii</h5>
+              <img src="https://source.unsplash.com/1600x900/?hawaii" alt="unsplash photo">
+            </a>
+            <a class="carousel-item" href="#five!">
+              <h5 class="amber-text">Hong Kong</h5>
+              <img src="https://source.unsplash.com/1600x900/?hongkong" alt="unsplash photo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Social Media -->
+  <section class="section section-smedia amber darken-2 white-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow TravelBear</h4>
+          <p>Follow us on social media for special offers</p>
+          <a href="#" class="white-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="#" class="white-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="#" class="white-text">
+            <i class="fab fa-instagram fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact/Subscription -->
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel amber white-text center">
+            <i class="material-icons">email</i>
+            <h5>info@travelbear.com</h5>
+            <p>Meet the team!</p>
+            <i class="material-icons">arrow_downward</i>
+
+          </div>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">add_circle_outline</i>John Johnson - CEO</div>
+              <div class="collapsible-body">
+                <span>j_johnson@travelbear.com</span>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">add_circle_outline</i>Sarah Simpson - CTO</div>
+              <div class="collapsible-body">
+                <span>s_simpson@travelbear.com</span>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">add_circle_outline</i>Jack Jackson - COO</div>
+              <div class="collapsible-body">
+                <span>j_jackson@travelbear.com</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="input-field col s12 m6">
+          <h4>Subscribe to our offers!</h4>
+          <select multiple>
+            <option value="" disabled selected>Choose your subscription</option>
+            <option value="1">Marketing from us and our friends</option>
+            <option value="2">Special offers and deals</option>
+            <option value="3">Prize draw</option>
+          </select>
+        </div>
+        <div class="col s12 m6">
+          <div class="input-field">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email">
+          </div>
+          <input type="submit" value="Submit" class="btn center">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section amber darken-2 white-text center">
+    <p class="flow-text">TravelBear &copy; 2018 </p>
+  </footer>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/app_bear.js?v=2"></script>
+</body>
+
+</html>

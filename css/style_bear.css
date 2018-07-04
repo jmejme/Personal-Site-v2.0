@@ -1,0 +1,20 @@
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+
+.section-smedia .fa-4x{
+  margin: 5px 10px;
+}
+
+.section-slider {
+  box-shadow: 0px 15px 10px -15px #111
+}
+
+.fixed-action-btn{
+  right:20px;
+  top: 60px;
+  left:auto;
+ }
