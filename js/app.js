@@ -1,4 +1,4 @@
-// // Sticky Nav Scroll //
+// Sticky Nav Scroll //
   ready(function() {
     const navBar = document.querySelector("#navbar");
 
@@ -13,7 +13,6 @@
     }
     document.onscroll = scroll;
   });
-
 // MOBILE NAV //
   ready(function() {
     const arrowUp = document.querySelector(".fa-angle-up");
@@ -39,9 +38,6 @@
     document.querySelector(".open-close-btn .fa-angle-down").style.display = "block";
   };
 });
-
-//************FUNCTIONS************//
-
 // DOMisReady //
 function ready(fn) {
   if (
